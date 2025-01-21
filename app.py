@@ -4,7 +4,7 @@ from streamlit_player import st_player
 def main():
     st.set_page_config(layout="wide")
     st.text("Live News Channels")
-    # Create a 2-column layout
+    
     col1, col2, col3 = st.columns(3)
 
     video_urls = [
